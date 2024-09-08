@@ -1,0 +1,41 @@
+    body {
+        background-image: url(backgroundlogin.png);
+    }
+
+    .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Memusatkan konten secara vertikal */
+    align-items: center; /* Memusatkan konten secara horizontal */
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan kotak */
+    width: 350px; /* Lebar kotak form */
+    text-align: center; /* Memusatkan teks di dalam konten */
+    margin: 100px auto; /* Memberikan jarak dari atas dan bawah, serta memusatkan konten secara horizontal */
+    
+    
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 0px;
+    float: left;
+    }
+    
+    input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    }
+    
+    button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    }
